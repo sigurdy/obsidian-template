@@ -1,3 +1,5 @@
 {
-  "folder": "900. Resources/910. Templates"
+  "folder": "900. Resources/910. Templates",
+  "dateFormat": "YYYY-DD-MM",
+  "timeFormat": "HH:mm"
 }
