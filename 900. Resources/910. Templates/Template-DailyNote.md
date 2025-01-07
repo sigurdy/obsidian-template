@@ -3,7 +3,6 @@ date: {{date}} {{time}}
 aliases: 
 tags:
   - DailyNote
-up: "[[_Dashboard.canvas|_Dashboard]]"
 ---
 
 # 📝 Notes
