@@ -16,7 +16,7 @@ up: "[[_Dashboard.canvas|_Dashboard]]"
 # 🔗 Related Notes
 
 
-> [!tldr]- Related Notes
+> [!tldr] Related Notes
 > ```dataview
 > TABLE file.mtime AS Modified, file.cday AS DateCreated, aliases AS Alias
 > FROM #project  AND !"900. Resources"
