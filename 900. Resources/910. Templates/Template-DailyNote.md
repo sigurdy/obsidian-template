@@ -15,7 +15,7 @@ tags:
 > ```dataview
 > TABLE meetingDate AS MeetingDate, file.cday AS DateCreated
 > FROM "" AND !"900. Resources"
-> WHERE meetingDate AND date(this.meetingDate) >= date(today)
+> WHERE meetingDate AND date(meetingDate) >= date(today)
 > SORT meetingDate DESC
 > LIMIT 10
 > ```
@@ -25,7 +25,7 @@ tags:
 > ```dataview
 > TABLE meetingDate AS MeetingDate, file.cday AS DateCreated
 > FROM "" AND !"900. Resources"
-> WHERE meetingDate AND date(this.meetingDate) < date(today)
+> WHERE meetingDate AND date(meetingDate) < date(today)
 > SORT meetingDate DESC
 > LIMIT 10
 > ```
